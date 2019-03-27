@@ -1,6 +1,6 @@
 {
   "name": "colostate-ricro-scripts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Useful scripts of developing RICRO based apps",
   "main": "index.js",
   "author": "Daniel Lennox",

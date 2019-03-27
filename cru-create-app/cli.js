@@ -147,8 +147,7 @@ script.scripts.exec(moveSrcFiles);
  * Install dependencies
  */
 const dependencies = 'colostate-ricro-ui';
-const devDependencies =
-  'babel-eslint@9.0.0 eslint-plugin-babel eslint-plugin-jest eslint-config-airbnb';
+const devDependencies = 'eslint-plugin-babel eslint-plugin-jest eslint-config-airbnb';
 
 Shell.pushd('-q', args.dir);
 script.scripts.exec([
