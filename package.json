@@ -1,7 +1,7 @@
 {
   "name": "colostate-ricro-scripts",
-  "version": "0.0.3",
-  "description": "Useful scripts of developing RICRO based apps",
+  "version": "1.0.0",
+  "description": "Script to create a RICRO-based boilerplate react app",
   "main": "index.js",
   "author": "Daniel Lennox",
   "license": "MIT",

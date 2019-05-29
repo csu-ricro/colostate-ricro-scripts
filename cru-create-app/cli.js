@@ -84,7 +84,7 @@ updatePackage({ args, options, script });
 /**
  * Add dot-files
  */
-const dotFiles = ['.eslintrc.js', 'prettier.config.js'];
+const dotFiles = ['.eslintrc.js', 'prettier.config.js', '.eslintignore'];
 
 const moveDotFiles = [];
 dotFiles.forEach(dotFile => {
@@ -133,9 +133,8 @@ moveSrcFiles.push({
 moveSrcFiles.push({
   name: `rm old src`,
   func: 'rm',
-  args: ['src/*.css', 'src/*.test.js', 'src/*.svg'],
+  args: [`${args.dir}src/*.css`, `${args.dir}src/*.test.js`, `${args.dir}src/*.svg`],
 });
-console.log(moveSrcFiles);
 moveSrcFiles.push({
   name: `Copy config.js`,
   func: 'cp',
