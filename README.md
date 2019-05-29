@@ -2,7 +2,7 @@
 
 ## Usage
 
-Install the package globably from npm
+Install the package globally from npm
 
 ```yarn global add colostate-ricro-ui```
 
@@ -14,7 +14,7 @@ Ensure the script is working
 
 Execute the script with the desired options.
 
-```bash
+```
 Usage: cru-create-app [options] 
 
 Create a new RICRO app with create-react-app and colostate-ricro-ui
